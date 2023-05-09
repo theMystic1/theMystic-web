@@ -1,0 +1,330 @@
+html {
+   height: 100%;
+   width: 100%;
+ }
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+   width: 100%;
+   height: 135px;
+   position: fixed;
+   top: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   box-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.05);
+   margin-bottom: 50px;
+   z-index: 200;
+   background-color: #ffffff;
+}
+
+.logo {
+   width: 175px;
+   height: 30px;
+
+}
+
+.logo img  {
+   width: 170px;
+   height: 23px;
+   margin-left: 50px;
+}
+
+.info  ul{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+}
+
+.info li {
+   list-style: none;
+   padding-right: 70px;
+   font-size: 20px;
+   font-weight: 700;
+   color: #636363;
+}
+
+.info li ion-icon {
+   position: absolute;
+   padding-left: 5px;
+   width: 20px;
+}
+
+.info li span {
+   color: #065666;
+
+}
+
+.btn {
+   margin-right: 50px;
+}
+
+.btn button {
+   width: 278px;
+   height: 75px;
+   border-radius: 16px;
+   background-color: #6FC247;
+   border: none;
+   font-size: 20px;
+   color: white;
+}
+
+.intro {
+   position: relative;
+   height: 174px;
+   top: 150px;
+   z-index: 20;
+}
+
+.intro h1 {
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 87px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #373737;
+}
+
+.intro p {
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 43px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #373737;
+}
+
+.buttons {
+   position: relative;
+   top: 350px;
+   left: 30%;
+   margin-left: ;
+   z-index: 20;
+}
+
+.btn1 {
+   width: 278px;
+   height: 75px;
+   border-radius: 16px;
+   background-color: #6FC247;
+   border: none;
+   font-size: 20px;
+   color: white;
+   margin-right: 30px;
+}
+
+.btn2 {
+   width: 277px;
+   height: 74px;
+   border-radius: 16px;
+   background-color: #ffffff;
+   border: none;
+   font-size: 20px;
+   color: #6FC247;
+   border: 1px solid #6FC247;
+}
+
+.imgg {
+   position: relative;
+   top: 400px;
+   left: 50px;
+}
+
+.logo-texts {
+   position: relative;
+   top: 450px;
+}
+
+.logo-texts h3 {
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 44px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #373737;
+}
+
+.logo-texts p {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #636363;
+}
+
+.logos {
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   left: 100px;
+}
+
+.logos div {
+   height: 117px;
+   width: 307px;
+   margin: 10px;
+   background: #F9F9F9;
+
+}
+
+.logo1, .logo2 {
+   height: 117px;
+   width: 210.88023376464844px;
+   left: 48.05987548828125px;
+   top: 0px;
+   padding-left: 20px;
+}
+
+.logo3 {
+   height: 59px;
+   width: 237px;
+   padding: 20px 0 0 20px;
+
+}
+
+.logo5 {
+   height: 154px;
+   width: 154px;
+   padding: 0 0 0px 70px ;
+}
+
+.logo6 {
+   height: 50px;
+   width: 230px;
+   padding: 40px;
+}
+
+.logo7 {
+   height: 50px;
+   width: 199px;
+   padding:30px; 
+}
+
+.logo8 {
+   height: 90px;
+   width: 171.42857360839844px;
+   padding: 30px;
+}
+
+.logo9, 
+.logo10,
+.logo11 {
+   padding: 30px;
+}
+
+.drkspc {
+   position: relative;
+   height: 350px;
+   width: 1512px;
+   left: 0px;
+   top: 550px;
+   padding: 72px 103px 72px 103px;
+   background: #111111;
+   color: #ffffff;
+   margin: 0;
+}
+
+.drkspc h2 {
+   font-size: 37px;
+   font-weight: 700;
+   line-height: 55px;
+}
+
+.drkspc p {
+   font-size: 19px;
+   font-weight: 400;
+   line-height: 30px;
+   text-align: left;
+   color: #D7D7D7;
+}
+
+.drkspc table {
+   margin: 80px 0;
+}
+
+.drkspc th {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   text-align: left;
+   padding-bottom: 30px;
+}
+
+.drkspc td {
+   font-size: 19px;
+   font-weight: 500;
+   line-height: 30px;
+   padding-right: 30px;
+   color: #D7D7D7;
+}
+
+.semi-btmm {
+   position: relative;
+   height: 1189px;
+   width: 1511px;
+   left: 0px;
+   top: 630px;
+   display:flex;
+}
+
+.txts {
+   margin: 0 80px 0 100px ;
+}
+
+.txts h2 {
+   height: 44px;
+   left: 0px;
+   top: 0px;
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 44px;
+}
+
+.txts p {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+}
+
+.pic img {
+   height: 936px;
+   width: 731px;
+   left: 574px;
+}
+
+.txts h3, .pp  {
+   padding-left: 40px;
+}
+
+.txts h3  {
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   padding: 40px 0 0 40px;
+}
+
+
+.btnlst {
+   position: relative;
+   top: 450px;
+   left: 45%;
+   padding-bottom: 150px;
+}
+
+.btnlst button {
+   width: 277px;
+   height: 74px;
+   border-radius: 16px;
+   background-color: #6FC247;
+   border: none;
+   font-size: 20px;
+   color: #ffffff;
+}
