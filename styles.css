@@ -7,10 +7,11 @@ body {
    margin: 0;
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
+   white-space: nowrap;
 }
 
 .head {
-   width: 100%;
+   width: 1512px;
    height: 135px;
    position: fixed;
    top: 0;
@@ -73,11 +74,16 @@ body {
    font-size: 20px;
    color: white;
 }
+.mainpage {
+   position: relative;
+   top: 150px;
+   margin-bottom: 20px;
+}
 
 .intro {
-   position: absolute;
-   height: 174px;
+   /*position: absolute;
    top: 150px;
+   height: 174px;*/
    left: 200px;
    z-index: 20;
 }
@@ -102,9 +108,11 @@ body {
 }
 
 .buttons {
-   position: absolute;
-   left: 30%;
+   display: flex;
+   padding-left: 400px;
+/* position: absolute; */
    z-index: 20;
+   margin-bottom: 20px;
 }
 
 .btn1 {
@@ -128,15 +136,16 @@ body {
 }
 
 .imgg {
-   position: absolute;
-   top: 705px;
+   /* position: absolute;
+   top: 705px; */
    left: 50px;
 }
 
 .logo-texts {
-   position: absolute;
-   top: 1340px;
+  /* position: absolute;
+   top: 1340px;*/
    text-align: center;
+   margin-bottom: 50px;
 }
 
 .logo-texts h3 {
@@ -156,7 +165,7 @@ body {
    letter-spacing: 0em;
    text-align: center;
    color: #636363;
-   padding-left: 120px;
+   padding-left: 100px;
 }
 
 .logos {
@@ -221,14 +230,13 @@ body {
 
 .drkspc {
    position: absolute;
+   top: 1750px;
    height: 350px;
    width: 1512px;
    left: 0px;
-   top: 2129px;
    padding: 72px 103px 72px 103px;
    background: #111111;
    color: #ffffff;
-   margin: 0;
 }
 
 .drkspc h2 {
@@ -267,10 +275,10 @@ body {
 
 .semi-btmm {
    position: absolute;
+   top: 2250px;
    height: 1189px;
    width: 1511px;
    left: 0px;
-   top: 2684px;
    display:flex;
 }
 
@@ -312,13 +320,10 @@ body {
 
 
 .btnlst {
-   position: absolute;
-   top: 3684px;
+  position: absolute;
+   top: 3304px;
    left: 45%;
    padding-bottom: 150px;
-}
-
-.btnlst button {
    padding: 25px 40px;
    border-radius: 16px;
    background-color: #6FC247;
