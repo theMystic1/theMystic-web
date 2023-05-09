@@ -66,8 +66,7 @@ body {
 }
 
 .btn button {
-   width: 278px;
-   height: 75px;
+   padding: 25px 40px;
    border-radius: 16px;
    background-color: #6FC247;
    border: none;
@@ -76,9 +75,10 @@ body {
 }
 
 .intro {
-   position: relative;
+   position: absolute;
    height: 174px;
    top: 150px;
+   left: 200px;
    z-index: 20;
 }
 
@@ -102,16 +102,13 @@ body {
 }
 
 .buttons {
-   position: relative;
-   top: 350px;
+   position: absolute;
    left: 30%;
-   margin-left: ;
    z-index: 20;
 }
 
 .btn1 {
-   width: 278px;
-   height: 75px;
+   padding: 25px 40px;
    border-radius: 16px;
    background-color: #6FC247;
    border: none;
@@ -121,8 +118,7 @@ body {
 }
 
 .btn2 {
-   width: 277px;
-   height: 74px;
+   padding: 25px 40px;
    border-radius: 16px;
    background-color: #ffffff;
    border: none;
@@ -132,14 +128,15 @@ body {
 }
 
 .imgg {
-   position: relative;
-   top: 400px;
+   position: absolute;
+   top: 705px;
    left: 50px;
 }
 
 .logo-texts {
-   position: relative;
-   top: 450px;
+   position: absolute;
+   top: 1340px;
+   text-align: center;
 }
 
 .logo-texts h3 {
@@ -149,6 +146,7 @@ body {
    letter-spacing: 0em;
    text-align: center;
    color: #373737;
+   padding-left: 120px;
 }
 
 .logo-texts p {
@@ -158,10 +156,11 @@ body {
    letter-spacing: 0em;
    text-align: center;
    color: #636363;
+   padding-left: 120px;
 }
 
 .logos {
-   position: relative;
+   position: absolute;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    left: 100px;
@@ -221,11 +220,11 @@ body {
 }
 
 .drkspc {
-   position: relative;
+   position: absolute;
    height: 350px;
    width: 1512px;
    left: 0px;
-   top: 550px;
+   top: 2129px;
    padding: 72px 103px 72px 103px;
    background: #111111;
    color: #ffffff;
@@ -262,16 +261,16 @@ body {
    font-size: 19px;
    font-weight: 500;
    line-height: 30px;
-   padding-right: 30px;
+   padding-right: 50px;
    color: #D7D7D7;
 }
 
 .semi-btmm {
-   position: relative;
+   position: absolute;
    height: 1189px;
    width: 1511px;
    left: 0px;
-   top: 630px;
+   top: 2684px;
    display:flex;
 }
 
@@ -313,15 +312,14 @@ body {
 
 
 .btnlst {
-   position: relative;
-   top: 450px;
+   position: absolute;
+   top: 3684px;
    left: 45%;
    padding-bottom: 150px;
 }
 
 .btnlst button {
-   width: 277px;
-   height: 74px;
+   padding: 25px 40px;
    border-radius: 16px;
    background-color: #6FC247;
    border: none;
