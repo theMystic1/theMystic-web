@@ -1,7 +1,7 @@
-html {
+/* html {
    height: 100%;
    width: 100%;
- }
+ } */
 
 body {
    margin: 0;
@@ -11,10 +11,11 @@ body {
 }
 
 .head {
-   width: 1512px;
    height: 135px;
    position: fixed;
    top: 0;
+   left: 0;
+   right: 0;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -23,6 +24,39 @@ body {
    margin-bottom: 50px;
    z-index: 200;
    background-color: #ffffff;
+   flex-shrink: 0;
+}
+
+ @media (max-width:  1110px) {
+      body{width: 1100px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; 
+   }
+   .head {
+      height: 120px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   
+.logo img {
+   width: 120px;
+   height: 20px;
+
+}
+.info li {
+   list-style: none;
+   padding-right: 70px;
+   font-size: 15px;
+   font-weight: 700;
+   color: #636363;
+}
 }
 
 .logo {
@@ -32,7 +66,7 @@ body {
 }
 
 .logo img  {
-   width: 170px;
+   width: 160px;
    height: 23px;
    margin-left: 50px;
 }
@@ -41,6 +75,7 @@ body {
    position: relative;
    display: flex;
    justify-content: space-between;
+   flex-shrink: 0;
 }
 
 .info li {
@@ -92,7 +127,6 @@ body {
    font-size: 64px;
    font-weight: 700;
    line-height: 87px;
-   letter-spacing: 0em;
    text-align: center;
    color: #373737;
 }
@@ -102,7 +136,6 @@ body {
    font-style: normal;
    font-weight: 500;
    line-height: 43px;
-   letter-spacing: 0em;
    text-align: center;
    color: #373737;
 }
@@ -169,10 +202,11 @@ body {
 }
 
 .logos {
+   width: 100%;
    position: absolute;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   left: 100px;
+   left: 10px;
 }
 
 .logos div {
@@ -232,9 +266,9 @@ body {
    position: absolute;
    top: 1750px;
    height: 350px;
-   width: 1512px;
+   width: 100%;
    left: 0px;
-   padding: 72px 103px 72px 103px;
+   padding: 72px 103px 72px 50px;
    background: #111111;
    color: #ffffff;
 }
@@ -277,7 +311,7 @@ body {
    position: absolute;
    top: 2250px;
    height: 1189px;
-   width: 1511px;
+   width: 100%;
    left: 0px;
    display:flex;
 }
